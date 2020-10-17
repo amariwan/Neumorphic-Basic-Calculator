@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Calculator made using HTML CSS and JavaScript">
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- font awesome stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <!--=============== google  ===============-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FDBX6RGB8P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FDBX6RGB8P');
+    </script>
+    <script>
+        "use strict";
+
+        ! function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function(t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('eirdf7hth7ib');
+    </script>
+    <!-- End of Async Drift Code -->
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Basic Calculator</h1>
+        <hr class="header-separator">
+        <h3 class="header-description">Calculator made with HTML, CSS and JavaScript for simple arithmetic operations.</h3>
+
+    </header>
+    <div class='calculator' id='calc'>
+        <div class='toggle'>
+          <div class='theme-switch-wrapper'>
+            <label class='theme-switch' for='checkbox'>
+              <input id='checkbox' type='checkbox'>
+              <div class='slider round'></div>
+            </label>
+          </div>
+        </div>
+        <div class='display'></div>
+        <span class='c neumorphic'>C</span>
+        <span class='signed neumorphic'>+/-</span>
+        <span class='percent neumorphic'>%</span>
+        <span class='divide neumorphic'>÷</span>
+        <span class='seven neumorphic'>7</span>
+        <span class='eight neumorphic'>8</span>
+        <span class='nine neumorphic'>9</span>
+        <span class='times neumorphic'>x</span>
+        <span class='four neumorphic'>4</span>
+        <span class='five neumorphic'>5</span>
+        <span class='six neumorphic'>6</span>
+        <span class='minus neumorphic'>-</span>
+        <span class='one neumorphic'>1</span>
+        <span class='two neumorphic'>2</span>
+        <span class='three neumorphic'>3</span>
+        <span class='plus neumorphic'>+</span>
+        <span class='zero neumorphic'>0</span>
+        <span class='decimal neumorphic'>.</span>
+        <span class='equals neumorphic'>=</span>
+      </div>    
+    <footer class="footer">
+        <h4 class="footer-copyright">&copy; Aland Mariwan 2019</h4>
+        <div class="footer-social-btn">
+            <a href="https://github.com/amariwan" target="_blank"><span class="fa fa-github-square fa-lg"></span></a>
+        </div>
+    </footer>
+    <!-- javaScript -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+
+</html>
